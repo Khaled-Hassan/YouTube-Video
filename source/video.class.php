@@ -61,7 +61,7 @@ class video {
     /**
      * @var str The YouTube API key.
      */
-    public $API_key = 'AIzaSyDP68LPRoSVVuUJBE5ZpJ1IXFCrhf7J9nU'; //'AIzaSyAB0vMXlJriVjnT6ALErS80pIOlqqeVYhM' 'AIzaSyDP68LPRoSVVuUJBE5ZpJ1IXFCrhf7J9nU';
+    public $API_key = 'AIzaSyCh0q-Zax9jO-n1jfDrVC3kDfTYFmd-2p4';
 
     /**
      * @var str The save path of JSON data.
