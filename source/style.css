@@ -1,0 +1,128 @@
+/* CSS for player */
+#videoWatch{
+    direction: ltr;
+    box-sizing: border-box;
+    width: 644px;
+    height: 410px;
+    border: solid 2px #f8d24b;
+    pointer-events: none;
+}
+#player{
+    width: 640px;
+    height: 360px;
+}
+#videoControl{
+    box-sizing: border-box;
+    width: 640px;
+    height: 46px;
+    padding: 0 5px 0 5px;
+    margin-top: -5px;
+    background-color: #1c1c1c;
+}
+#postionContainer{
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    height: 4px;
+    margin: 0 1px 6px 1px;
+    top: 2px;
+    padding: 0;
+    background-color: #eee;
+    cursor: pointer;
+}
+#postionContainer #postion{
+    width: 0;
+    height: 100%;
+    margin: 0;
+    background-color: #f8d24b;
+}
+#play, #volumeLess, #volumeAdd, #volumeMute, #fullScreen{
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    padding: 1px;
+    font-size: 14px !important;
+    line-height: 24px;
+    background-color: #1c1c1c;
+    color: rgba(255,255,255,0.7);
+    cursor: pointer;
+    border: solid 2px rgba(255,255,255,0.7);
+    border-radius: 50%;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+#play{
+    padding-left: 2px;
+}
+#play:hover, #volumeLess:hover, #volumeAdd:hover, #volumeMute:hover, #fullScreen:hover{
+    color: #f8d24b;
+    border-color: #f8d24b;
+}
+#play:disabled, #volumeLess:disabled, #volumeAdd:disabled, #volumeMute:disabled, #fullScreen:disabled{
+    color: rgba(255,255,255,0.5);
+    border: solid 2px rgba(255,255,255,0.5);
+    cursor: default;
+}
+#play:disabled:hover, #volumeLess:disabled:hover, #volumeAdd:disabled:hover, #volumeMute:disabled:hover, #fullScreen:disabled:hover{
+    color: rgba(255,255,255,0.5);
+    border: solid 2px rgba(255,255,255,0.5);
+}
+#fullScreen{
+    float: right;
+    margin-right: 5px;
+    font-size: 16px;
+}
+#fullScreen:hover i{
+    transform: scale(1.1);
+}
+#volumeContainer{
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100px;
+    height: 8px;
+    top: -1px;
+    padding: 0;
+    background-color: #eee;
+}
+#volumeContainer #volume{
+    width: 0;
+    height: 100%;
+    margin: 0;
+    background-color: #f8d24b;
+}
+#timer{
+    display: inline-block;
+    width: 95px;
+    margin: 0 10px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #1c1c1c;
+    color: #eee;
+}
+#timer #timerShow, #timer #duratrion{
+    display: inline-block;
+    min-width: 40px;
+    font-size: 12px;
+}
+#timer #sperator{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+    margin: 0 2px;
+    overflow: hidden;
+}
+#status{
+    float: right;
+    width: 60px;
+    margin: 0 15px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #1c1c1c;
+    color: #eee;
+}
